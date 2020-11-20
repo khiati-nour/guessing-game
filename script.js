@@ -2,7 +2,7 @@
     document.getElementById("submit").addEventListener("click", function () {
 
 
-        let learners = Math.floor(Math.random() * (4 - 1)) + 1;
+        let learners = Math.floor(Math.random() * (22 - 1)) + 1;
         console.log(learners);
         let x = document.getElementById('guess').value
 
